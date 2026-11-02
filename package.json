@@ -1,0 +1,15 @@
+{
+  "name": "react-parcel",
+  "version": "1.0.0",
+  "description": "learing react",
+  "license": "ISC",
+  "author": "Kritika Roy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\""
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
