@@ -1,10 +1,29 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HeroPart from "./components/HeroPart";
+import ProductCard from "./components/ProductCard";
+
 function App() {
   return (
     <div>
-        <h6>01 - Home</h6>
-        <h1>Kritika Roy</h1>
-        <h6>Immediate Joiner • AI-Augmented UI Engineer • Open to New Opportunities</h6>
-        <p>I craft clean, responsive and user-focused digital experiences — specializing in pixel-perfect Figma-to-code conversions, React.js components, and modern CSS architecture, supercharged with Claude Code and OpenAI Codex for rapid website generation, terminal-based workflows, and precision debugging.</p>
+      <Header />
+      <main id="top">
+        <div className="wrap">
+          <HeroPart />
+          <section id="shop">
+            <div className="group" id="grocery">
+              <h3>Grocery</h3>
+              <div className="grid">
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <Footer />
     </div>
   );
 }
